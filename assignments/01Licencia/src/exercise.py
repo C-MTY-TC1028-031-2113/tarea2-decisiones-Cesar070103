@@ -1,6 +1,8 @@
 
 def main():
     edad = int(input("Ingresa tu edad: "))
+    if edad == str:
+        print("Respuesta incorrecta")
     if edad >= 18:
         oficial = str(input("¿Tienes identificación oficial? (s/n) "))
         if oficial == "s":
@@ -12,3 +14,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#Falta saber qué pasa cuando el dato no es válido
